@@ -21,6 +21,10 @@
                 class="iconfont big reco-gitlab coral"></i></a>
             <a v-if="socials.gitee" :href="socials.gitee" title="gitee" target="_blank"><i
                 class="iconfont big reco-mayun crimson"></i></a>
+            <a v-if="socials.yuque" :href="socials.yuque" title="语雀" target="_blank"><i
+                class="iconfont big reco-yuque indianred"></i></a>
+            <a v-if="socials.csdn" :href="socials.csdn" title="CSDN" target="_blank"><i
+                class="iconfont big reco-csdn indianred"></i></a>
             <a v-if="socials.jianshu" :href="socials.jianshu" title="简书" target="_blank"><i
                 class="iconfont big reco-jianshu indianred"></i></a>
             <a v-if="socials.zhihu" :href="socials.zhihu" title="知乎" target="_blank"><i
@@ -31,8 +35,7 @@
                 class="iconfont big reco-juejin dodgerblue"></i></a>
             <a v-if="socials.segmentfault" :href="socials.segmentfault" title="思否" target="_blank"><i
                 class="iconfont big reco-sf forestgreen"></i></a>
-            <a v-if="socials.csdn" :href="socials.csdn" title="CSDN" target="_blank"><i
-                class="iconfont big reco-csdn indianred"></i></a>
+           
             <a v-if="socials.wechat" :href="socials.wechat" title="微信" target="_blank"><i
                 class="iconfont big reco-wechat forestgreen"></i></a>
             <a v-if="socials.qq" :href="socials.qq" title="QQ" target="_blank"><i

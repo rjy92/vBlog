@@ -10,7 +10,7 @@ specifiers:
   qiniu: ^7.3.0
   vue-class-component: ^7.2.3
   vuepress: ^1.9.7
-  vuepress-theme-reco: ^1.6.14
+  vuepress-theme-reco: 1.5.5
 
 dependencies:
   '@vuepress-reco/vuepress-plugin-bgm-player': registry.npmmirror.com/@vuepress-reco/vuepress-plugin-bgm-player/1.1.4
@@ -24,7 +24,7 @@ devDependencies:
   path: registry.npmmirror.com/path/0.12.7
   qiniu: registry.npmmirror.com/qiniu/7.7.0
   vuepress: registry.npmmirror.com/vuepress/1.9.7
-  vuepress-theme-reco: registry.npmmirror.com/vuepress-theme-reco/1.6.14_agz4ryhxos5s2vcybpy2rge4y4
+  vuepress-theme-reco: registry.npmmirror.com/vuepress-theme-reco/1.5.5_vuepress@1.9.7
 
 packages:
 
@@ -2258,18 +2258,6 @@ packages:
       - whiskers
     dev: true
 
-  registry.npmmirror.com/@vuepress-reco/core/1.6.14-beta.0_vue-class-component@7.2.6:
-    resolution: {integrity: sha512-JQDCpwcubIcVkjfAaZS61QDFnjS3ID13Iq9Xg9uyGbgxbPL3oXXpARcGaYSKoLZLofH4jO8170BlkbhAUgU1Fw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vuepress-reco/core/-/core-1.6.14-beta.0.tgz}
-    id: registry.npmmirror.com/@vuepress-reco/core/1.6.14-beta.0
-    name: '@vuepress-reco/core'
-    version: 1.6.14-beta.0
-    dependencies:
-      vue: registry.npmmirror.com/vue/2.7.8
-      vue-property-decorator: registry.npmmirror.com/vue-property-decorator/9.1.2_chk7q7rgeabwy64hfqmb36krqe
-    transitivePeerDependencies:
-      - vue-class-component
-    dev: true
-
   registry.npmmirror.com/@vuepress-reco/vuepress-plugin-back-to-top/1.6.13:
     resolution: {integrity: sha512-4KPllVU1ruD4SANuZ0wNQJwpcSctKJmWD4XhdAXOuoNc2kRzM4ic/xnWZ9YJuTlae94w4ocnmm3bZafWuewqRw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-back-to-top/-/vuepress-plugin-back-to-top-1.6.13.tgz}
     name: '@vuepress-reco/vuepress-plugin-back-to-top'
@@ -2306,6 +2294,12 @@ packages:
     name: '@vuepress-reco/vuepress-plugin-kan-ban-niang'
     version: 1.0.5
     dev: false
+
+  registry.npmmirror.com/@vuepress-reco/vuepress-plugin-loading-page/1.6.13:
+    resolution: {integrity: sha512-OuSqH3k2gaobJ71TTQvDq/rUNlNqC5Nsdte2Wv46MGKyQB7bzmy7SSneQPARlZbWbF57IpxLy3dQCB/vBsf+yA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-loading-page/-/vuepress-plugin-loading-page-1.6.13.tgz}
+    name: '@vuepress-reco/vuepress-plugin-loading-page'
+    version: 1.6.13
+    dev: true
 
   registry.npmmirror.com/@vuepress-reco/vuepress-plugin-pagation/1.6.13:
     resolution: {integrity: sha512-6XPFCYFdMPao769TBA5lX0vAuzZsG/SlvxiioSxr0EDMCqEvvGaLq9/esJS8EyZ214byySIqRBoev55WOZlEyg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-pagation/-/vuepress-plugin-pagation-1.6.13.tgz}
@@ -12676,6 +12670,7 @@ packages:
     version: 7.2.6
     peerDependencies:
       vue: ^2.0.0
+    dev: false
 
   registry.npmmirror.com/vue-class-component/7.2.6_vue@2.7.8:
     resolution: {integrity: sha512-+eaQXVrAm/LldalI272PpDe3+i4mPis0ORiMYxF6Ae4hyuCh15W8Idet7wPUEs4N4YptgFHGys4UrgNQOMyO6w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-class-component/-/vue-class-component-7.2.6.tgz}
@@ -12806,19 +12801,6 @@ packages:
     dependencies:
       vue: registry.npmmirror.com/vue/2.7.8
       vue-class-component: registry.npmmirror.com/vue-class-component/7.2.6_vue@2.7.8
-    dev: true
-
-  registry.npmmirror.com/vue-property-decorator/9.1.2_chk7q7rgeabwy64hfqmb36krqe:
-    resolution: {integrity: sha512-xYA8MkZynPBGd/w5QFJ2d/NM0z/YeegMqYTphy7NJQXbZcuU6FC6AOdUAcy4SXP+YnkerC6AfH+ldg7PDk9ESQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-property-decorator/-/vue-property-decorator-9.1.2.tgz}
-    id: registry.npmmirror.com/vue-property-decorator/9.1.2
-    name: vue-property-decorator
-    version: 9.1.2
-    peerDependencies:
-      vue: '*'
-      vue-class-component: '*'
-    dependencies:
-      vue: registry.npmmirror.com/vue/2.7.8
-      vue-class-component: registry.npmmirror.com/vue-class-component/7.2.6
     dev: true
 
   registry.npmmirror.com/vue-router/3.5.4:
@@ -12978,15 +12960,15 @@ packages:
       smoothscroll-polyfill: registry.npmmirror.com/smoothscroll-polyfill/0.4.4
     dev: true
 
-  registry.npmmirror.com/vuepress-theme-reco/1.6.14_agz4ryhxos5s2vcybpy2rge4y4:
-    resolution: {integrity: sha512-vGBgNBNStKFGyN4yZHDHjElv7Rq70PNG9HU02gvQADCda8/ukTvEt11K7yCR8A59XIN3EBlMqiUkb4Px6uWGpQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-theme-reco/-/vuepress-theme-reco-1.6.14.tgz}
-    id: registry.npmmirror.com/vuepress-theme-reco/1.6.14
+  registry.npmmirror.com/vuepress-theme-reco/1.5.5_vuepress@1.9.7:
+    resolution: {integrity: sha512-G/SfQIb9Z/ZoyQ9leeieZfbQ/qJE/uXlRTSo5KKdZ8MPVL2DM65LQy436BQyQRO0C4yr912MjYADLpFPK/mQ8g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-theme-reco/-/vuepress-theme-reco-1.5.5.tgz}
+    id: registry.npmmirror.com/vuepress-theme-reco/1.5.5
     name: vuepress-theme-reco
-    version: 1.6.14
+    version: 1.5.5
     dependencies:
-      '@vuepress-reco/core': registry.npmmirror.com/@vuepress-reco/core/1.6.14-beta.0_vue-class-component@7.2.6
       '@vuepress-reco/vuepress-plugin-back-to-top': registry.npmmirror.com/@vuepress-reco/vuepress-plugin-back-to-top/1.6.13
       '@vuepress-reco/vuepress-plugin-comments': registry.npmmirror.com/@vuepress-reco/vuepress-plugin-comments/1.6.13
+      '@vuepress-reco/vuepress-plugin-loading-page': registry.npmmirror.com/@vuepress-reco/vuepress-plugin-loading-page/1.6.13
       '@vuepress-reco/vuepress-plugin-pagation': registry.npmmirror.com/@vuepress-reco/vuepress-plugin-pagation/1.6.13
       '@vuepress/plugin-blog': registry.npmmirror.com/@vuepress/plugin-blog/1.9.2_vuepress@1.9.7
       '@vuepress/plugin-medium-zoom': registry.npmmirror.com/@vuepress/plugin-medium-zoom/1.5.0
@@ -13002,7 +12984,6 @@ packages:
       - esm
       - supports-color
       - utf-8-validate
-      - vue-class-component
       - vuepress
     dev: true
 

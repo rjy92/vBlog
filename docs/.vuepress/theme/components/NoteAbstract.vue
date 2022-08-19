@@ -19,6 +19,7 @@ export default {
     currentPageData () {
       const start = this.currentPage * 10 - 10
       const end = this.currentPage * 10
+      console.log('come in this.data',this.data)
       return this.data.slice(start, end)
     }
   }
