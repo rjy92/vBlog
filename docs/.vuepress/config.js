@@ -52,7 +52,7 @@ module.exports = {
       }
     ],
     "type": "blog",
-    "sidebar": false,
+    "sidebar": 'auto',
     "blogConfig": {
       "category": {
         "location": 2,
@@ -157,7 +157,8 @@ module.exports = {
       'https://pan.zealsay.com/zealsay/cover/5.jpg',
       'https://pan.zealsay.com/zealsay/cover/6.jpg'
     ],
-    "codeTheme": "tomorrow"
+    "codeTheme": "tomorrow",
+    autoAddCategoryToNavbar: true,
   },
   "markdown": {
     "lineNumbers": true

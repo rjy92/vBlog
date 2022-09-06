@@ -13,9 +13,10 @@
         "docs:build": "vuepress build docs"
     },
     "dependencies": {
-        "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
         "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+        "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
         "aos": "^2.3.4",
-        "vue-class-component": "^7.2.3"
+        "vue-class-component": "^7.2.3",
+        "vue-server-renderer": "^2.7.10"
     }
 }

@@ -7,7 +7,6 @@ tags:
  - vuepress
 categories:
  -  技术笔记
-sticky: 1
 ---
 
 ::: tip 介绍
